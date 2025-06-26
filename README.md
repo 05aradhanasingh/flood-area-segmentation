@@ -9,12 +9,18 @@ The dataset contains 290 satellite images along with manually annotated binary m
 ## Model Architecture
 
 Base Model: U-Net
+
 Input Size: 128×128 pixels
+
 Output: Binary segmentation mask (flood vs. non-flood)
+
 Loss Function: Binary Cross-Entropy
+
 Optimizer: Adam
+
 Evaluation Metrics: Accuracy, IoU (Intersection over Union)
-Results
+
+## Results
 
 The model achieved good segmentation performance on the test set. It successfully highlights flood-affected areas and performs well in terms of both pixel-level accuracy and IoU score.
 
