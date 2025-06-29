@@ -24,7 +24,5 @@ Evaluation Metrics: Accuracy, IoU (Intersection over Union)
 
 The model achieved good segmentation performance on the test set. It successfully highlights flood-affected areas and performs well in terms of both pixel-level accuracy and IoU score.
 
-## Future Work
 
-Possible future improvements include using multi-temporal or multi-spectral satellite imagery to enhance model accuracy. Increasing the dataset size and incorporating data from different flood events can also improve generalization.
 
